@@ -1,0 +1,1 @@
+{"version": 1, "title": "繁體與 English 字體驗證", "language": "zh-TW", "audience": "beginner", "status": "draft", "notice": "待補全：僅供字體與長文字排版測試，不代表已完成操作。", "steps": [{"title": "檢查訊息通知", "action": "請點擊齒輪旁邊的「设置」。這裡保留畫面中真正的按鈕名稱，並以繁體中文說明。較長的文字應自然換行，不能超出頁面或遮住截圖。確認畫面清楚後，再按照自己的需要檢查通知狀態。", "image": "screen.png", "highlights": [[25, 380, 550, 78]], "crop": [15, 340, 570, 160]}]}
