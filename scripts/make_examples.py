@@ -10,7 +10,7 @@ def screen(path,title,rows,size=(600,1000),secret=False,rotate=False):
     f=ImageFont.truetype(FONT,27); big=ImageFont.truetype(FONT,34)
     d.rectangle((0,0,size[0],125),fill='white'); d.text((30,30),'示例应用 · 虚构界面',font=f,fill='#5b6674'); d.text((30,78),title,font=big,fill='#152536')
     for n,row in enumerate(rows):
-        y=180+n*100; d.rounded_rectangle((25,y,size[0]-25,y+78),radius=10,fill='white'); 
+        y=180+n*100; d.rounded_rectangle((25,y,size[0]-25,y+78),radius=10,fill='white');
         if '       ' in row:
             label,state=row.split('       '); d.text((45,y+20),label,font=f,fill='#152536'); d.text((430,y+20),state,font=f,fill='#152536')
         elif row=='⚙ 设置':
